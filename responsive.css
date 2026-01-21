@@ -198,5 +198,101 @@
     line-height: 1.6;
     text-align: left;
   }
+
+  /* Episodes section */
+    .episodes-container {
+    flex-direction: column;   
+    align-items: center;      
+    gap: 16px;                
+    padding: 0 10px;          
+    justify-content: center;  
+  }
+  .featured-heading {
+    margin: 0 auto;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 40px;
+
+
+  .episode-card {
+    width: 100%;            
+    max-width: 380px;        
+    gap: 0;                  
+  }
+
+  .video-container {
+    border-radius: 16px;
+  }
+
+  .episode-info {
+    padding: 16px 18px;
+    border-radius: 16px;
+  }
+
+  .episode-info h3 {
+    font-size: 20px;
+  }
+
+  .episode-info p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .duration {
+    font-size: 14px;
+  }
+   /* Host section */
+    .meet-host {
+    padding: 20px 10px;
+  }
+
+  .host-content {
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .host-card {
+    flex-direction: column;
+    flex-wrap: nowrap;   
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .host-card img {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+  }
+
+  .host-card .host-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .host-info {
+    font-size: 26px;
+    text-align: center;     
+    margin-bottom: 12px;
+  }
+
+  .host-info p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;     
+    margin-bottom: 14px;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+  }
+
+  
     
 } 
