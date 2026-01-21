@@ -18,6 +18,12 @@
         font-size: 15px;
     }
 }
+
+
+
+
+
+
 /* Small / Mobile Device (≤576px) */
 @media screen and (max-width: 576px) {
 
@@ -29,13 +35,13 @@
         justify-content: space-between;
     }
 
-    /* Hide menu & button */
+    
     .menu,
     .Subscribe-btn {
         display: none;
     }
 
-    /* Show hamburger */
+    /*  hamburger */
     .hamburger {
         display: block;
     }
@@ -43,4 +49,73 @@
     .logo {
         font-size: 26px;
     }
-}
+    .banner-container{
+        margin-top: 10%;
+    }
+    .circle {
+        width: 200px;
+        height: 200px;
+        top: 32%;
+
+    } 
+    .banner-image .circle {
+        width: 200px;
+        height: 200px;
+        top: 32%;
+    } 
+
+
+    .circle img {
+        width: 100%;
+        height: auto;
+    }
+
+    .circle .icon {
+        width: 80px;
+    }
+   
+   .new-badge {
+        position: absolute;
+        top: 10px;
+        right: 6px;
+        z-index: 5;
+    }
+ 
+    .badge {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    .banner-content {
+        top: 80%;
+        padding: 0 16px;
+    }
+
+    .banner-content h1 {
+        font-size: 34px;
+    }
+
+    .banner-text {
+        font-size: 14px;
+        max-width: 320px;
+        margin: 0 auto;
+        line-height: 1.5;
+    }
+
+    .banner-actions {
+        margin: 16px;
+        
+        gap: 12px;
+    }
+    .btn-primary,
+    .btn-secondary {
+        height: 48px;              
+        padding: 0 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+        line-height: 1;
+  }
+
+    
+} 
