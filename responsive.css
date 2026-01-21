@@ -1,0 +1,46 @@
+
+/* Medium Device (576px to 992px) */
+@media screen and (max-width: 992px) {
+    .navbar {
+        padding: 20px 40px;
+    }
+
+    .menu {
+        gap: 20px;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .Subscribe-btn {
+        padding: 10px 14px;
+        font-size: 15px;
+    }
+}
+/* Small / Mobile Device (≤576px) */
+@media screen and (max-width: 576px) {
+
+    .navbar {
+        padding: 16px 20px;
+    }
+
+    .nav-container {
+        justify-content: space-between;
+    }
+
+    /* Hide menu & button */
+    .menu,
+    .Subscribe-btn {
+        display: none;
+    }
+
+    /* Show hamburger */
+    .hamburger {
+        display: block;
+    }
+
+    .logo {
+        font-size: 26px;
+    }
+}
